@@ -269,6 +269,9 @@ def get_form_config(**kwargs):
                 "user-dashboard-request-details"
             ]
         ),
+        publish_modal_extra=current_app.config.get(
+            "APP_RDM_DEPOSIT_FORM_PUBLISH_MODAL_EXTRA"
+        ),
         **kwargs,
     )
 
