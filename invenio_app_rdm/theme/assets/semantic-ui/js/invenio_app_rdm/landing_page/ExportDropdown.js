@@ -26,6 +26,7 @@ export class ExportDropdown extends Component {
       <Grid>
         <Grid.Column width={11}>
           <Dropdown
+            aria-label="Export selection"
             selection
             fluid
             selectOnNavigation={false}
